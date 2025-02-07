@@ -1,0 +1,14 @@
+<script>
+    let userstr = prompt("Enter a string");
+    function vowelsFunc(userstr){
+        vowels = ["a","e","i","o","u"]
+        let x = 0
+        for (let i = 0; i < userstr.length; i++) {
+            if (vowels.includes(userstr[i])){
+                x++
+            }
+        }
+        console.log(x)
+    }
+    vowelsFunc(userstr)
+</script>
