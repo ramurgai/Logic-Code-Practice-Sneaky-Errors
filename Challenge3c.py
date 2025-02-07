@@ -11,4 +11,4 @@ def vowelsFunc(userstr):
 
 vowelsFunc(userstr)
 
-
+#This one is fixed by adding a "u" to the list

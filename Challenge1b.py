@@ -5,3 +5,4 @@ if age >= 19:
 else:
     print("You are not eligible to vote")
 
+#This one is fixed by changing the 19 in the if statement to 18
